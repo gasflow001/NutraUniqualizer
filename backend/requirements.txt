@@ -1,0 +1,15 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+python-multipart>=0.0.20
+google-genai>=1.0
+playwright>=1.49
+aiohttp>=3.11
+pillow>=11.0
+numpy>=2.0
+sqlalchemy>=2.0
+aiosqlite>=0.20
+python-dotenv>=1.0
+pydantic>=2.10
+pydantic-settings>=2.6
+websockets>=14.0
+httpx>=0.28

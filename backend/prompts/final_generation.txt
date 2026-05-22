@@ -1,0 +1,49 @@
+Generate a Facebook advertising creative for a nutra product (dietary supplement / health product).
+
+CANVAS: {aspect_ratio}.
+
+PRODUCT (FOCAL POINT — THIS IS THE MOST IMPORTANT RULE):
+The FIRST attached reference image is the ONLY product to show. Use it as the EXACT product packaging — preserve its label design, brand name "{brand_name}", colors, and shape ({package_type}). Show product from a NEW angle, not the same as reference.
+⚠️ CRITICAL: The product bottle/box/jar from the FIRST image MUST appear in the final creative. Do NOT use, copy, or reference any product/packaging visible in the SECOND (design reference) image. The second image is ONLY for style inspiration. If the design reference shows a different product — COMPLETELY IGNORE that product and use ONLY the product from the FIRST image.
+
+DESIGN REFERENCE (the SECOND attached reference image — STYLE ONLY, NOT PRODUCT):
+{design_reference_section}
+IMPORTANT: Use the design reference ONLY for visual style, mood, composition, and layout inspiration. NEVER copy the product/packaging shown in the design reference. The product must come EXCLUSIVELY from the first attached image.
+
+TEXT CONTENT (render crisply in language: {source_lang}):
+- HEADLINE (largest element, ALL CAPS, bold sans-serif, high contrast):
+    "{headline_original}"
+- SUBHEADLINE (medium size, regular weight):
+    "{subheadline_original}"
+- BENEFITS (with checkmark ✓ icons, vertical list):
+{benefits_bullet_list}
+- CTA BUTTON (rounded rectangle, accent color):
+    "{cta_original}"
+- BADGES (circular or rectangular tags overlaid on canvas):
+{badges_list}
+
+LAYOUT:
+{layout_instructions}
+
+STYLE: {style}, mood: {mood}.
+PALETTE: primary {palette_hex_list}, plus warm accent (red/orange) for discount and CTA.
+VISUAL ELEMENTS to include: {visual_elements_list}.
+
+CRITICAL ANTI-DUPLICATION RULES:
+- Do NOT replicate ANY reference creative's exact composition.
+- Vary: camera angle on product, background scene details, human model pose/expression, typography choice (same class but different specific font), badge placement, color accent positions.
+- Preserve only: information hierarchy, readability, nutra-genre conventions, and the overall mood/style from the design reference.
+
+PRODUCT IDENTITY RULE (HIGHEST PRIORITY):
+- The ONLY product shown must be from the FIRST reference image.
+- If the design reference (second image) contains a different product, jar, bottle, or packaging — DO NOT reproduce it. Replace it with the product from the FIRST image.
+- The brand name on the product MUST read "{brand_name}".
+
+CONTENT RULES (strict):
+- NO real public figures, celebrities, or named doctors.
+- NO real third-party brand logos.
+- NO graphic medical close-ups (stylize any before/after eyes — no realistic pathology photos).
+- All claims must be soft: "improves", "supports", "promotes" — never "cures", "guarantees", "100% effective".
+- All text must be crisp and legible in {source_lang}.
+
+OUTPUT: a single polished, production-ready Facebook ad creative featuring the product from the FIRST reference image.

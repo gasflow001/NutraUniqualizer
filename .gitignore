@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Environment (SENSITIVE — API keys, proxies)
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Storage & data (user-generated content + DB)
+backend/storage/uploads/
+backend/storage/outputs/
+backend/storage/final/
+backend/storage/products/
+backend/storage/design_refs/
+backend/data/nutra.db
+
+# Chrome profile (Google session cookies!)
+.chrome-nutra-flow/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gemini/Antigravity
+.gemini/
